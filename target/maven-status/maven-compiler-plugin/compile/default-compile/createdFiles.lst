@@ -1,0 +1,6 @@
+com\cg\controller\MerchantController.class
+com\cg\Application.class
+com\cg\repository\MerchantRepository.class
+com\cg\dao\MerchantDao.class
+com\cg\entity\Merchant.class
+com\cg\service\MerchantService.class
