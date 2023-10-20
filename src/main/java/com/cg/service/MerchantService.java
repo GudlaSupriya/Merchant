@@ -6,22 +6,13 @@ import com.cg.dao.MerchantDao;
 import com.cg.entity.Merchant;
 import java.util.*;
 
-
 @Service
-
-
 
 public class MerchantService implements MerchantDao {
 
-	
-
 	List<Merchant> merchants = new ArrayList<Merchant>();
 
- 
-
-
-
-	public String addProduct(Merchant merchant) {
+	public String addMerchant(Merchant merchant) {
 
 		merchants.add(merchant);
 
@@ -29,18 +20,12 @@ public class MerchantService implements MerchantDao {
 
 	}
 
-
-
 	@Override
 	public List<Merchant> getMerchantList() {
-		
+
 		return merchants;
 	}
 
- 
-
 	
-
- 
 
 }

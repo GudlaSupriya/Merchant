@@ -6,7 +6,7 @@ import com.cg.entity.Merchant;
 
 public interface MerchantDao {
 
-	public String addProduct(Merchant merchant);
+	public String addMerchant(Merchant merchant);
 
 	public List<Merchant> getMerchantList();
 
