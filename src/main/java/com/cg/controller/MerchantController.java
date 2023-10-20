@@ -15,7 +15,7 @@ import com.cg.service.MerchantService;
 
 @RestController
 
-@RequestMapping("/merchanttapi")
+@RequestMapping("/merchantapi")
 
 public class MerchantController {
 
